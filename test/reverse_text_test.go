@@ -8,10 +8,10 @@ import (
 )
 
 func TestReverseText(t *testing.T) {
-	assert.Equal(t, "TES LULUS BISA SAYA", ReverseText("SAYA BISA LULUS TES"))
+	assert.Equal(t, "TES LULUS BISA SAYA", reverseText("SAYA BISA LULUS TES"))
 }
 
-func ReverseText(str string) string {
+func reverseText(str string) string {
 	strArr := strings.Split(str, " ")
 	var resultArr []string
 	for _, result := range strArr {
