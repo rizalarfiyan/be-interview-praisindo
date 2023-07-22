@@ -1,5 +1,5 @@
 -- postgreSQL
--- Data
+-- DB Diagram: https://dbdiagram.io/d/64bb456e02bd1c4a5e80a3fe
 
 CREATE TABLE "Dosen" (
   "NIK" varchar(20) PRIMARY KEY,
